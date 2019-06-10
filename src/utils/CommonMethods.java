@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class CommonMethods {
-
+                                    //TestNG
 	public static WebDriver driver;
 
 	public static void setUpDriver(String browser, String url) {
@@ -36,6 +36,27 @@ public class CommonMethods {
 		driver.get(url);
 	}
 
+	/**
+	 * This method will Check if data is displayed in the table
+	 * 
+	 * @author tetianahatley
+	 * @param List<WebElement> element, String text
+	 * 
+	 */
+	public static void dataCheck(List<WebElement> element, String text) {
+
+		List<WebElement> cells = element;
+		String expected = text;
+		for (WebElement cell : cells) {
+			String cellText = cell.getText();
+			if (cellText.equalsIgnoreCase(expected)) {
+				System.out.println(text + " is displayed ");
+				break;
+//			} else {
+//				System.out.println(text + " - text is not present");
+			}
+		}
+	}
 	/**
 	 * This method will select specified Radio Button
 	 * 

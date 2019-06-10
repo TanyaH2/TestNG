@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2954" started-at="2019-05-30T19:48:16Z" finished-at="2019-05-30T19:48:19Z">
+  <suite name="Suite" duration-ms="10162" started-at="2019-06-07T01:38:25Z" finished-at="2019-06-07T01:38:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2954" started-at="2019-05-30T19:48:16Z" finished-at="2019-05-30T19:48:19Z">
-      <class name="com.class01.Task">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.class01.Task@5c7fa833]" name="setUpDriver" is-config="true" duration-ms="1735" started-at="2019-05-30T19:48:16Z" finished-at="2019-05-30T19:48:17Z">
+    <test name="Test" duration-ms="10162" started-at="2019-06-07T01:38:25Z" finished-at="2019-06-07T01:38:36Z">
+      <class name="com.class04.ParametersTask3">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="setUp" is-config="true" duration-ms="1838" started-at="2019-06-07T01:38:25Z" finished-at="2019-06-07T01:38:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="task()[pri:0, instance:com.class01.Task@5c7fa833]" name="task" duration-ms="418" started-at="2019-05-30T19:48:17Z" finished-at="2019-05-30T19:48:18Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userName1(java.lang.String, java.lang.String)[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="userName1" duration-ms="5649" started-at="2019-06-07T01:38:27Z" finished-at="2019-06-07T01:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- task -->
-        <test-method status="PASS" signature="logOutClose()[pri:0, instance:com.class01.Task@5c7fa833]" name="logOutClose" is-config="true" duration-ms="784" started-at="2019-05-30T19:48:18Z" finished-at="2019-05-30T19:48:19Z">
+        </test-method> <!-- userName1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-06-07T01:38:33Z" finished-at="2019-06-07T01:38:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOutClose -->
-      </class> <!-- com.class01.Task -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="setUp" is-config="true" duration-ms="1634" started-at="2019-06-07T01:38:33Z" finished-at="2019-06-07T01:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userName2(java.lang.String, java.lang.String)[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="userName2" duration-ms="856" started-at="2019-06-07T01:38:35Z" finished-at="2019-06-07T01:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.ParametersTask3@6767c1fc]" name="tearDown" is-config="true" duration-ms="81" started-at="2019-06-07T01:38:35Z" finished-at="2019-06-07T01:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class04.ParametersTask3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
